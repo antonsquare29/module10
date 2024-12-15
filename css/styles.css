@@ -1,0 +1,215 @@
+
+body {
+    background-color: #082B59;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+  }
+
+.container-fluid {
+    width: 100%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-3 {
+  padding: 15px;
+}
+
+.ps-3 {
+  padding-left: 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.d-none {
+    display: none;
+}
+.d-show {
+    display: unset;
+}
+
+@media (min-width: 650px) /*Tablet*/
+{
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33%;
+    }
+    .col-md-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-md-9 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+    .d-md-none {
+        display: none;
+    }
+    .d-md-show {
+        display: unset;
+    }
+}
+
+@media (min-width: 1000px) /*Desktop*/
+{
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 16.66%;
+    }
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33%;
+    }
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-lg-8 {
+      flex: 0 0 auto;
+      width: 66.66%;
+    }
+    .d-lg-none {
+        display: none;
+    }
+    .d-lg-show {
+        display: unset;
+    }
+}
+
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  /* make images flexible */
+  img {
+    max-width: 100%;
+  }
+  a {
+    color: #59331d;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  header {
+    border-bottom: 10px solid #d98555;
+  }
+  /* navbar styling */
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  nav li {
+    margin: auto;
+    font-size: 1.3rem;
+  }
+  /* max width on the image in pixels */
+  nav .logo img {
+    max-width: 150px;
+  }
+  /* flex basis on the image container, li */
+  nav .logo {
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+  }
+  nav a:hover {
+    color: #d98555;
+  }
+  /* establishes a white background */
+  .main-bkgd {
+    background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
+    padding-bottom: 300px;
+  }
+  .border-box {
+    box-sizing: border-box;
+  }
+  /* sits inside of the white background, centered */
+
+  article {
+    padding: 20px;
+  }
+  figure {
+    background-color: #59331d;
+    border-radius: 10px;
+  }
+  figure img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+  }
+  figcaption {
+    color: #f2f2f2;
+    padding: 0.5rem;
+  }
+  .button {
+    display: inline-block;
+    background-color: #59331D;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 3px solid #59331d;
+  }
+  .button:hover {
+    background-color: #f2f2f2;
+    color: #59331d;
+  }
+  footer {
+    color: #f2f2f2;
+    text-align: center;
+    border-top: 10px solid #d98555;
+  }
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  footer a {
+    color: #f2f2f2;
+    font-size: 2rem;
+    display: block;
+    margin: 0 1rem 3rem 1rem;
+  }
